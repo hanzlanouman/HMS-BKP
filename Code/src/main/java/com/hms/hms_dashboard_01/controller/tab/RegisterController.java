@@ -16,7 +16,6 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-
 public class RegisterController {
 
     @FXML
@@ -41,9 +40,7 @@ public class RegisterController {
         Stage stage = (Stage)((Node) event.getSource()).getScene().getWindow();
         stage.setScene(new Scene(root));
         stage.show();
-
     }
-
 
     public void backToLogin(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource(path.getPath("loginregister", "hms_login")));

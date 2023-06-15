@@ -50,10 +50,6 @@ public class StudentController implements Initializable {
         studentEmail.setCellValueFactory(new PropertyValueFactory<>("studentEmail"));
 
         studentTable.setItems(studentList);
-
-
-
-
     }
 
     public void refresh(){
